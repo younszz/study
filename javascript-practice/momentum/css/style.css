@@ -1,0 +1,136 @@
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100%;
+}
+
+#clock {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  font-size: 56px;
+  color: #fff;
+}
+
+#login-form {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#login-form input[type=text] {
+  width: 500px;
+  height: 50px;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  outline: none;
+}
+
+#login-form input::placeholder {
+  color: #fff;
+}
+
+#login-form input[type=submit] {
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+}
+
+#todo-form {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%);
+}
+
+#todo-form input {
+  width: 630px;
+  height: 40px;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  outline: none;
+}
+
+#todo-form input::placeholder {
+  color: #ccc;
+}
+
+#todo-list {
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  width: 630px;
+}
+
+#todo-list li {
+  display: inline-block;
+  color: #fff;
+  margin-right: 20px;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+#quote {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+#quote span {
+  display: block;
+  font-size: 14px;
+  font-style: italic;
+  color: #ccc;
+}
+
+#weather {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#weather span {
+  display: block;
+  color: #ccc;
+}

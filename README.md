@@ -1,2 +1,1 @@
-# react-study
-리액트 강의 정리
+# [react-study](react-practice/README.md)
