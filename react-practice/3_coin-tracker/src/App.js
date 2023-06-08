@@ -18,8 +18,8 @@ function App() {
         <strong>Loading...</strong>
       ) : (
         <select>
-          {coins.map((coin) =>
-            <option>
+          {coins.map((coin,index) =>
+            <option key={index}>
               {coin.name} ({coin.symbol}): {coin.quotes.USD.price} USD
             </option>
           )}
